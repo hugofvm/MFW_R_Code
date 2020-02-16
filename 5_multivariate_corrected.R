@@ -5,6 +5,7 @@
 
 library(BayesVarSel)
 library(HDInterval)
+library(bestglm)
 
 # dataset
 cr <- UScrime[,1:15]

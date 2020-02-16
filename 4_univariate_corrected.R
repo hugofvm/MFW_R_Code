@@ -5,6 +5,7 @@
 
 library(BayesVarSel)
 library(HDInterval)
+library(bestglm)
 
 
 a <- Ozone35[,2:8]
