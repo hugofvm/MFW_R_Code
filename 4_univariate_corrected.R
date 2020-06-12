@@ -131,18 +131,18 @@ predozonechol <- function(sdev, beta0, beta1,nsim,nkeep){
 set.seed(214)
 pred_ozone_homo_10_chol <- predozonechol(sqrt(4.831),2,0.5,10000,128)
 set.seed(115)
-pred_ozone_het_x7_10_chol <- predozonechol(sqrt(varhet1),2,0.5,10000,128)
+pred_ozone_het_x7_10_chol <- predozonechol(sqrt(varhetx7_10),2,0.5,10000,128)
 set.seed(932)
-pred_ozone_het_x6_10_chol <- predozonechol(sqrt(varhetx61),2,0.5,10000,128)
+pred_ozone_het_x6_10_chol <- predozonechol(sqrt(varhetx6_10),2,0.5,10000,128)
 
 # SNR = 1
 
 set.seed(671)
 pred_ozone_homo_1_chol <- predozonechol(sqrt(48.31),2,0.5,10000,128)
 set.seed(873)
-pred_ozone_het_x7_1_chol <- predozonechol(sqrt(varhet2),2,0.5,10000,128)
+pred_ozone_het_x7_1_chol <- predozonechol(sqrt(varhetx7_1),2,0.5,10000,128)
 set.seed(102)
-pred_ozone_het_x6_1_chol <- predozonechol(sqrt(varhetx62),2,0.5,10000,128)
+pred_ozone_het_x6_1_chol <- predozonechol(sqrt(varhetx6_1),2,0.5,10000,128)
 
 # HPM
 
@@ -151,15 +151,15 @@ pred_ozone_het_x6_1_chol <- predozonechol(sqrt(varhetx62),2,0.5,10000,128)
 set.seed(214)
 pred_ozone_homo_10_chol_hpm <- predozonechol(sqrt(4.831),2,0.5,10000,1)
 set.seed(115)
-pred_ozone_het_x7_10_chol_hpm <- predozonechol(sqrt(varhet1),2,0.5,10000,1)
+pred_ozone_het_x7_10_chol_hpm <- predozonechol(sqrt(varhetx7_10),2,0.5,10000,1)
 set.seed(932)
-pred_ozone_het_x6_10_chol_hpm <- predozonechol(sqrt(varhetx61),2,0.5,10000,1)
+pred_ozone_het_x6_10_chol_hpm <- predozonechol(sqrt(varhetx6_10),2,0.5,10000,1)
 
 # SNR = 1
 
 set.seed(671)
 pred_ozone_homo_1_chol_hpm <- predozonechol(sqrt(48.31),2,0.5,10000,1)
 set.seed(873)
-pred_ozone_het_x7_1_chol_hpm <- predozonechol(sqrt(varhet2),2,0.5,10000,1)
+pred_ozone_het_x7_1_chol_hpm <- predozonechol(sqrt(varhetx7_1),2,0.5,10000,1)
 set.seed(102)
-pred_ozone_het_x6_1_chol_hpm <- predozonechol(sqrt(varhetx62),2,0.5,10000,1)
+pred_ozone_het_x6_1_chol_hpm <- predozonechol(sqrt(varhetx6_1),2,0.5,10000,1)
